@@ -4,12 +4,14 @@
 
 # Service File :-
 
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-
+import { Injectable } from '@angular/core'; <br/>
+import { HttpClient } from '@angular/common/http';<br/>
+import { Observable } from 'rxjs';<br/>
+<br/>
 @Injectable({
+<br/>
   providedIn: 'root'
+  <br/>
 })
 export class DataService {
   constructor(private http: HttpClient) {}
